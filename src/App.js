@@ -99,6 +99,9 @@ const useStyles = makeStyles((theme) => ({
   imgToolbar: {
     marginLeft:0
   },
+  colorToolbar: {
+    backgroundColor:'#006666'
+  },
 }));
 
 export const MiniDrawer = () => {
@@ -134,7 +137,7 @@ export const MiniDrawer = () => {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar className={classes.colorToolbar}>
           <IconButton
             color="inherit"
             aria-label="open drawer"

@@ -73,11 +73,11 @@
     margin-bottom: 19px;
   }
   .linkEmail {
-    color: blue
+    color: black
   }
 
   .link{
-    color:#00e6e6;
+    color:#04a9a9;
     text-decoration: none;
   }
 
@@ -86,7 +86,7 @@
   }
 
   .link:visited{
-    color: #00e6e6;
+    color: #04a9a9;
   }
 
   .lightText {
